@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url(../1347997.jpg);
+    background-attachment: fixed;
+}
+section {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 4px;
+    width: 80%;
+
+
+}
+div {
+    height: 450px;
+    background-color: lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 25px 22px;
+}
+a {
+    text-decoration: none;
+    font-size: 100px;
+    color: yellow;
+}
+h1 {
+    text-decoration: none;
+    font-size: 100px;
+    color:yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: jedi-outline;
+    
+
+}
+
+
+h2 {
+    color: black;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    opacity: 0.01;
+    
+}
+h3{
+    color: darkblue;
+}
+
+img {
+    border: 2px solid darkgoldenrod;
+    border-radius: 10px;
+}
+.card:hover {
+    transform: translateY(-20px);
+    transition: 0.75s;
+    background-color: darkorchid;
+    
+}
+.card:hover>h2{
+    opacity: 0.9;
+    transition: 0.75s; 
+}
+.title{
+    
+}
+
